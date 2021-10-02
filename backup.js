@@ -15,7 +15,7 @@ if (!fs.existsSync(backupFolder)) {
 }
 
 const job = new CronJob(
-  "47 16 * * *",
+  "01 01 * * *",
   function () {
     const now = new Date()
       .toLocaleString()
